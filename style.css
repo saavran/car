@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.left{
+    width: 50%;
+    float: left;
+}
+img{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+#ImageTwo{
+    margin-top: 100px;
+}
+.right{
+    width: 50%;
+    height: 200px;;
+    float: left;
+}
+.buttons{
+    width: 200px;
+    margin: 0px auto;
+}
+button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 0px;
+    font-size: 10px;
+    color: white;
+}
+button:focus{
+    border: 2px solid black;
+}
+.blueButton{
+    background-color: blue;
+}
+.redButton{
+    background-color: red;
+}
+.silverButton{
+    background-color: silver;
+}
+.greyButton{
+    background-color: grey;
+}
