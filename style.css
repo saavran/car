@@ -4,7 +4,7 @@
     font-family: 'Roboto', sans-serif;
 }
 .left{
-    width: 50%;
+    width: 40%;
     float: left;
 }
 img{
@@ -15,10 +15,13 @@ img{
 #ImageTwo{
     margin-top: 100px;
 }
-.right{
-    width: 50%;
-    height: 200px;;
+.middle{
+    width: 30%;
     float: left;
+}
+.middle-content{
+    width: 400px;
+    margin: 60px auto;
 }
 .buttons{
     width: 200px;
@@ -31,6 +34,7 @@ button{
     border: 0px;
     font-size: 10px;
     color: white;
+    outline: 0px;
 }
 button:focus{
     border: 2px solid black;
@@ -46,4 +50,74 @@ button:focus{
 }
 .greyButton{
     background-color: grey;
+}
+.box{
+    height: 15px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: .7s ease-in-out;
+}
+p{
+    font-size: 12px;
+}
+#box1{
+    width: 300px;
+}
+#box2{
+    width: 280px;
+}
+#box3{
+    width: 320px;
+}
+#box4{
+    width: 240px;
+}
+#box5{
+    width: 200px;
+}
+.number{
+    float: right;
+    position: relative;
+    font-weight: 700;
+}
+.half-circle {
+    width: 200px;
+    height: 100px; /* as the half of the width */
+    border-top-left-radius: 110px;  /* 100px of height + 10px of border */
+    border-top-right-radius: 110px; /* 100px of height + 10px of border */
+    border: 10px solid gray;
+    border-bottom: 0;
+    margin: 0px auto;
+}
+#iconMeter{
+    position: relative;
+    top: 85px;
+    left: 15px;
+    transform: rotate(110deg);
+    transform-origin: 87px 12px;
+    transition: .7s ease-in-out;
+}
+.right{
+    width: 30%;
+    float: left;
+}
+.right-content{
+    margin: 100px auto;
+}
+h3{
+    text-align: center;
+    margin: 10px 0px;
+}
+@media screen and (max-width: 770px){
+    .left{
+        width: 100%;
+    }
+    .middle{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+        margin-top: -100px;
+    }
 }
